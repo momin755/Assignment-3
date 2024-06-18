@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(images/cloud.png);
+ background-size: cover;
+ background-repeat: no-repeat;
+ position: relative;
+ z-index: 1;
+ height: 100vh;
+}
+header::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.541);
+}
+.header-part{
+ 
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.header-menu{
+    
+}
+.header-menu nav{}
+.header-menu nav ul{
+    display: flex;
+    align-items: center;
+}
+.header-menu nav ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+.header-menu nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 19px;
+}
+.header-menu nav ul li a:hover{
+    color: orangered;
+    transition: color .4s;
+}
+
+/* header End */
+
+/* Banner Start */
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 50px 0px 050px;
+    margin-top: 120px;
+    padding-bottom: -20px !important;
+}
+.banner-details{
+    width: 50%;
+    color: #fff; 
+}
+.banner-details h1{
+    font-size: 45px;
+    font-weight: 700;
+    width: 80%;
+}
+.deatils-other{
+    color: #ff008e;
+}
+.banner-details p{
+    font-size: 18px;
+    line-height: 27px;
+    margin: 25px 0;
+    width: 77%;
+}
+.banner-details a{
+    outline: 0;
+    border: 0;
+    padding: 15px 20px;
+    background-image: linear-gradient(90deg, #c21273, #FF008E);
+   text-decoration: none;
+   color: #fff;
+   font-weight: 400;
+   box-shadow: 0 7px 0 #a5075e;
+   position: relative;
+   top: 0;
+}
+.banner-image{
+    width: 50%;
+}
+.banner-image img{
+    width: 100%;
+    height: 100%;
+}
+/* Banner End */
+
+/* Feature card CSS */
+
+.feature{
+    padding: 40px 0;
+}
+.featureh{
+    text-align: center;
+    
+}
+.feature-h{
+    color: #FF008E;
+    font-weight: 800;
+  
+}
+.feature-cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.feature-card{
+    width: 260px;
+    box-shadow: 5px 3px 5px 2px #0000003a;
+    padding: 20px;
+    margin-top: 30px;
+}
+.feature-icon{}
+.feature-icon i{
+    font-size: 28px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #FF008E;
+    text-align: center;
+    padding-top: 10px;
+    color: #fff;
+}
+.feature-details{}
+.feature-details h1{
+    color: rgb(255, 0, 142);
+    font-size: 25;
+    font-weight: 700;
+    margin-top: 8px;
+ 
+}
+.feature-details p{
+    font-size: 16px;
+    line-height: 24px;
+    margin: 10px 0;
+}
+.feature-details a{
+    font-size: 16px;
+    color: rgba(255, 0, 140, 0.842);
+    text-decoration: none;
+}
+
+/* gallery */
+
+.gallery{
+    padding: 25px 0;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 25px 0;
+}
+.photo-item{
+    width: 300px;
+    height: 200px;
+}
+.photo-item img{
+    border: 3px  solid rgb(255, 0, 142)
+    ;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+/* End */
+
+/* Contact Start CSS */
+
+.contact{}
+.contact-full{
+    margin-top: 30px;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+}
+.contact-img{
+    width: 50%;
+    margin: 0 auto;
+}
+.contact-img img{
+    width: 100%;
+  
+}
+.contact-form{
+    width: 50%;
+    margin-left: 50px;
+}
+.contact-form form input,textarea{
+    width: 90%;
+    padding: 12px 15px;
+    border: 2px solid #FF008E;
+    margin: 10px 0;
+    outline: none;
+    border-radius: 5px;
+}
+.contact-form form .link{
+    width: 50%;
+    margin: 0 auto;
+   text-align: center;
+    outline: 0;
+    border: 0;
+    padding: 15px 20px;
+    background-image: linear-gradient(90deg, #c21273, #FF008E);
+   text-decoration: none;
+   color: #fff;
+   font-weight: 400;
+   box-shadow: 0 7px 0 #a5075e;
+   cursor: pointer;
+   
+}
